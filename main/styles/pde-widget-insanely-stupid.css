@@ -1,0 +1,37 @@
+/*
+ * insanely-stupid style for widgets
+*/
+
+.pde-widget-insanely-stupid {
+  background: black;
+  color: white ;
+  border: pink 1px solid ;
+  padding: 3px;
+}
+
+.pde-widget-insanely-stupid .pde-form-field {
+  margin-bottom: 10px;
+}
+
+.pde-widget-insanely-stupid .pde-form-field .pde-form-title label span:after {
+  content: ':' ;
+}
+
+.pde-widget-insanely-stupid .pde-form-field .pde-form-title label span:empty:after {
+  content: '' ;
+}
+
+.pde-widget-insanely-stupid .pde-form-field input[type="text"],
+.pde-widget-insanely-stupid .pde-form-field input[type="password"],
+.pde-widget-insanely-stupid .pde-form-field select,
+.pde-widget-insanely-stupid .pde-form-field textarea {
+  width: 100%;
+}
+
+.pde-widget-insanely-stupid .pde-form-field .pde-form-description {
+  font-style: italic ;
+}
+
+.pde-widget-insanely-stupid .pde-form-field .pde-form-input input.pde-plugin-pickcolor-text {
+  width: 80px ;
+}

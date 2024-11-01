@@ -1,0 +1,16 @@
+<?php
+  $s_style = $item->get_style();
+  $e_style = '' ;
+  if ( !empty( $s_style ) ) {
+    $style = $s_style ;
+    $e_style = '</' . $s_style . '>' ;
+    $s_style = '<' . $s_style . '>' ;
+  } else {
+    $style = 'none';
+  }
+?>
+@>
+      <div class="pde-form-field pde-form-label label-style-<?php echo $style; ?>">
+        <?php echo $s_style; ?><@php _e( <?php _pv( $item->get_title() ); ?> ); ?><?php echo $e_style; ?>
+      </div>
+<@php 
